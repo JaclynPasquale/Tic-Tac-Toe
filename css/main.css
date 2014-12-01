@@ -1,0 +1,21 @@
+table {
+
+  width: 600px;
+  height: 600px;
+  margin: 0px auto;
+
+}
+
+td {
+  width: 200px;
+  height: 200px;
+}
+
+td:nth-child(-n+2) {
+  border-bottom: 2px solid black;
+  border-right: 2px solid black;
+}
+
+td:nth-child(3) {
+  border-bottom: 2px solid black;
+}
